@@ -1,1 +1,2 @@
-print("Lidgdfgdfgdna")
+print("hello")
+print("world")
