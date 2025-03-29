@@ -8,13 +8,13 @@ WIDTH, HEIGHT = 400,400
 CENTER = (WIDTH // 2, HEIGHT // 2)
 FPS = 60
 
-background = pygame.image.load("mickeyClock.png")  
+background = pygame.image.load("clock.png")  
 minute_hand = pygame.image.load("min_hand.png")   
 second_hand = pygame.image.load("sec_hand.png")   
 
 background = pygame.transform.scale(background, (WIDTH, HEIGHT))
-minute_hand = pygame.transform.scale(minute_hand, (200, 20))
-second_hand = pygame.transform.scale(second_hand, (200, 20))
+minute_hand = pygame.transform.scale(minute_hand, (400, 400))
+second_hand = pygame.transform.scale(second_hand, (400, 400))
 
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 clock = pygame.time.Clock()
