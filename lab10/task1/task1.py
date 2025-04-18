@@ -4,7 +4,7 @@ import csv
 conn = psycopg2.connect(
     dbname="lab10",
     user="postgres",
-    password="Nege228!",  
+    password="sanzhar_00",  
     host="localhost"
 )
 
